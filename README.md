@@ -5,7 +5,12 @@ Room provides an abstraction layer over SQLite to allow fluent database access w
 
 ### What does EasyRoom offer?
 This module offers an introductory integration of Room database into your app. Sample components of Room have been provided for your ease of building your first project with Room. Just download this module and import it into your android project to get started!
-* Import module by : File -> New -> Import Module, and then select the downloaded easyroom module from your download location. 
+#### Start Using EasyRoom in these 3 simple Steps:
+1. Download this module and extract the zip file in your preferred location.
+2. Import module by : File -> New -> Import Module, and then select the downloaded easyroom module from your download location.
+3. Make sure, you have the module implementation in your **app level gradle file**: Like this:
+![screen](https://user-images.githubusercontent.com/34805906/52255790-f746d580-2939-11e9-96eb-b2e6d88de1df.png)
+
 #### Components
 A Room database has these components:
 * Entity class - The model class for your database table. This module gives you one already prepared in the **entity** folder! You can edit any SQL column you want in the table too!
