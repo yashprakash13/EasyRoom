@@ -18,7 +18,7 @@ A Room database has these components:
 * Database Abstract Class - This module has one too!
 * Repository class - This is the class that is used to define the methods to be used in your activity to execute queries through the DAO object. EasyRoom has one included for basic **CRUD** operations (**Insert, Update, Delete, Query**)!
 
-#### Other Utility Classes include for your convenience:
+#### Other Utility Classes included for your convenience:
 * A TimeStamp Converter class- One of the useful feature of Room is Type Converters. When you have to store in database some custom types, you can use Type Converters. It converts from a unknown type into a known type in terms of database types.
   * Through this class, the type Date is stored as a String type into the database. It is located in the **Utilities** folder of the module.
   * You can see 2 defined methods: 
