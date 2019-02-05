@@ -15,8 +15,8 @@ This module offers an introductory integration of Room database into your app. S
 A Room database has these components:
 * Entity class - The model class for your database table. This module gives you one already prepared in the **entity** folder! You can edit any SQL column you want in the table too!
 * DAO interface - Data Access Object for executing SQL Queries by Room. The DAO interface is included in the **dao** folder in the module. Customize it as you like!
-* Database Astract Class - This module has one too!
-* Repository class - This is the class that is used to define the methods to be used in your actitiy to execute queries through the DAO object. EasyRoom has one included for basic **CRUD** operations (**Insert, Update, Delete, Query**)!
+* Database Abstract Class - This module has one too!
+* Repository class - This is the class that is used to define the methods to be used in your activity to execute queries through the DAO object. EasyRoom has one included for basic **CRUD** operations (**Insert, Update, Delete, Query**)!
 
 #### Other Utility Classes include for your convenience:
 * A TimeStamp Converter class- One of the useful feature of Room is Type Converters. When you have to store in database some custom types, you can use Type Converters. It converts from a unknown type into a known type in terms of database types.
