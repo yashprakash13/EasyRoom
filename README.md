@@ -1,5 +1,6 @@
 # EasyRoom
 EasyRoom lets you have a simple and easy integration of Room Database into your Android app.
+#### For a complete walkthrough, read this [blog post.](https://medium.com/@yashprakash13/android-room-database-a-beginners-implementation-b5e01fa502cb)
 
 Room provides an abstraction layer over SQLite to allow fluent database access while harnessing the full power of SQLite. Read all about it [here.](https://developer.android.com/training/data-storage/room/)
 
